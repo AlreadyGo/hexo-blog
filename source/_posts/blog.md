@@ -99,6 +99,10 @@ tags: [hexo,blog]
     repo: https://github.com/AlreadyGo/alreadyGo.github.io.git
     branch: master
 ```
+### 安装next主题
+> $ mkdir themes/next
+> $ curl -s https://api.github.com/repos/iissnan/hexo-theme-next/releases/latest | grep tarball_url | cut -d '"' -f 4 | wget -i - -O- | tar -zx -C themes/next --strip-components=1
+
 ### 生成static文件
 > $ hexo generate
 
