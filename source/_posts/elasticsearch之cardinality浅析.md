@@ -6,6 +6,8 @@ tags: [elasticsearch,cardinality]
 ## 引言
 大数据时代,类似sum求和或者avg平均值的操作还是相对容易,而比如类似算网站uv或者
 找出网站访问最频繁访客会比较困难,es中提供了一种cardinality聚合来解决这类问题.
+<!-- more -->
+
 ```
 curl -XGET "http://localhost:9200/_search" -d'
 {

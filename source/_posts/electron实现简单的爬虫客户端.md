@@ -6,6 +6,7 @@ tags: [js,electron,爬虫]
 ### 下载客户端
 [下载win客户端/绿色免安装](https://github.com/AlreadyGo/crawler-client/releases)
 ### 解压客户端压缩包
+<!-- more -->
 ### 双击crawler-devTools.exe
 ![crawler-devTools.png](/images/crawler/crawler-devTools.png)
 ### 在控制台执行代码

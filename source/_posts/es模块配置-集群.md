@@ -6,6 +6,8 @@ tags: [es,elasticsearch]
 配置分为static和dynamic两种,
 static配置在elasticsearch.yml,环境变量,或者在启动节点的命令行中;
 dynamic可以通过cluster-update-settings api动态更新.
+<!-- more -->
+
 ***
 # 集群
 主节点主要功能之一是决定哪个分片分配到哪个节点,什么时候在节点间移动分片来平衡集群

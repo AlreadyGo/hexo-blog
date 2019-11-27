@@ -14,6 +14,8 @@ tags: [js,npm]
 #### 编辑 ~/.npmrc 加入下面内容
 > registry = http://registry.cnpmjs.org
 
+<!-- more -->
+
 #### 设置代理
 > npm config set proxy http://server:port
   npm config set https-proxy http://server:port

@@ -6,6 +6,7 @@ tags: [mysql,linux]
 1.无法远程连接mysql  1130
 
 GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%' IDENTIFIED BY 'mypassword' WITH GRANT OPTION;
+<!-- more -->
 
 2.服务端中文乱码
 

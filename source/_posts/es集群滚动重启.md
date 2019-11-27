@@ -11,6 +11,8 @@ curl -XPUT '/_cluster/settings?pretty' -d '{
   }
 }'
 ```
+<!-- more -->
+
 ## 关闭单个节点
 关闭节点 
 ```

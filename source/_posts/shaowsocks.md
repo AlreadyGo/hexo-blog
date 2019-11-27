@@ -17,6 +17,7 @@ tags: [shadowsocks,breakwall]
 ##### 服务器端口：自己设定（如不设定，默认为 8989）
 ##### 客户端端口：1080
 ##### 密码：自己设定（如不设定，默认为teddysun.com）
+<!-- more -->
 
 ##### 客户端下载
 * [windows](https://github.com/breakwa11/shadowsocks-csharp/releases) 

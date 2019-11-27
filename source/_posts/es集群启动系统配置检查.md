@@ -20,6 +20,8 @@ ES_HEAP_SIZE=20G
 ```
 heap size [1.9gb], compressed ordinary object pointers [true]
 ```
+<!-- more -->
+
 - 尽量保持在zero-based compressed oops临界点以下,大多数系统临界点在26G是安全的,有一些系统可以达到30G
 可以在启动es的时候加上XX:+UnlockDiagnosticVMOptions -XX:+PrintCompressedOopsMode两个jvm参数来检验下是否在临界点之下,会出现如下日志:
 ```

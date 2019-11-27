@@ -19,6 +19,7 @@ path:
     - /mnt/elasticsearch_2
     - /mnt/elasticsearch_3
 ```
+<!-- more -->
 ### cluster.name
 集群名
 ```
